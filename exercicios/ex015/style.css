@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(241, 236, 239, 0.692);
+}
+
+h1 {
+  color: blueviolet;
+  background-color: rgb(47, 9, 9);
+}
+
+h2 {
+  background-color: blueviolet;
+}
+
+p {
+  text-align: justify;
+}
