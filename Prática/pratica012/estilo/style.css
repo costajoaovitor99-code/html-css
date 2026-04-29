@@ -17,6 +17,8 @@ html, body {
     background-color: darkgrey;
 }
 header{
+    position: fixed;
+    width: 100vh;
     background-color: black;
     color: white;
     text-align: center;
@@ -41,8 +43,8 @@ a:hover {
 }
 section{
     font-family: var(--fonte2);
-    font-size: 4.5vw;
-    padding-top: 10vh;
+    font-size: 3vw;
+    padding-top: 170px;
     padding-bottom: 10vh;
     line-height: 32px;
     padding-left: 30px;
@@ -54,12 +56,21 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.673);
     color: white;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.727);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.856);
     display: inline-block;
     border-radius: 5px;
     padding: 10px;
+}
+section#img01 {
+background-image: url('../imagens/background001.jpg');
+}
+section#img02 {
+background-image: url('../imagens/background002.jpg');
 }
 footer {
     background-color: black;
